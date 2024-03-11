@@ -922,7 +922,7 @@ blockquote footer:before,
  4.1) Header First Style
  ----------------------------------------*/
 #header {
-	background: #26211d;
+	background: #0063b8;
 	position: relative;
 	z-index: 99;
 }
@@ -1227,6 +1227,10 @@ a.brand img {
 	visibility: visible;
 }
 
+.header-second .btn-volunteer {
+	color: #fff !important;
+}
+
 /*
  4.2) Header Second Style
  ----------------------------------------*/
@@ -1245,14 +1249,14 @@ a.brand img {
 
 .touch-by-mail {
 	float: right;
-	color: #5c534b;
+	color: #fff;
 	font-size: 14px;
 	line-height: 2.6;
 	margin: 0 35px;
 }
 
 .organization {
-	color: #5c534b;
+	color: #fff;
 	display: inline-block;
 	line-height: 3;
 }

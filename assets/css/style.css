@@ -1744,7 +1744,7 @@ main-slider .tp-caption .btn.btn-default {
 
 /*helping-child*/
 .helping-child {
-	background: url(../img/img/pexels-george-pak-7972661.jpg) center 0 no-repeat;
+	background: linear-gradient(310deg, #292c2598, #262d3b94), url(../img/img/pexels-george-pak-7972661.jpg) center 0 no-repeat;
 	background-size: cover;
 	padding: 103px 0 127px;
 	margin-bottom: 60px;
@@ -1864,8 +1864,14 @@ main-slider .tp-caption .btn.btn-default {
 	margin-bottom: 15px
 }
 
+.article-pic {
+	height: 400px;
+}
+
 .article-list-large .article-pic img {
 	width: 100%;
+	object-fit: cover;
+	height: 100%;
 }
 
 .article-list-large.progressbar .detail-description {
@@ -1961,13 +1967,13 @@ main-slider .tp-caption .btn.btn-default {
 .number-count {
 	height: 72px;
 	width: 72px;
-	background: #ecc731;
+	background: #00933b;
 	line-height: 72px;
 	text-align: center;
 	display: inline-block;
 	border-radius: 50%;
 	font-size: 30px;
-	color: #26211d;
+	color: #fff;
 	font-weight: 100;
 	margin-bottom: 22px;
 }
@@ -2492,7 +2498,7 @@ aside ul.archives li span {
 
 /*save lives*/
 .save-lives {
-	background: url(../img/img/pexels-andy-barbour-6683580.jpg) center 0 no-repeat;
+	background: linear-gradient(310deg, #292c2598, #262d3b94), url(../img/img/pexels-andy-barbour-6683580.jpg) center 0 no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 	padding: 72px 0 86px;
@@ -2501,6 +2507,12 @@ aside ul.archives li span {
 .save-lives h2 {
 	margin-bottom: 20px;
 	font-size: 30px;
+	font-weight: 600;
+	color: #f9f7f5;
+}
+
+.save-lives p {
+	color: #ddd;
 }
 
 .save-lives h2 strong {
@@ -2517,7 +2529,7 @@ aside ul.archives li span {
 }
 
 .save-lives .btn-default {
-	font-size: 18 px;
+	font-size: 18px;
 	padding: 15px 30px;
 	margin: 0 9px;
 	min-width: 200px;
@@ -4301,4 +4313,24 @@ aside ul.tag_element li:nth-child(9) {
 
 .footer-nav-links {
 	padding-left: 103px;
+}
+
+.mask {
+	position: absolute;
+	background-position: 50%;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0.8;
+	background: linear-gradient(310deg, #292c25, #262d3b);
+}
+
+.breadcrumb a {
+	color: #f9f7f5 !important;
+}
+
+.breadcrumb>li,
+.breadcrumb>.active {
+	color: #00933b !important;
 }

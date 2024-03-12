@@ -746,7 +746,7 @@ blockquote footer:before,
  3.12)Breadcrumb Banner Section 
  ----------------------------------------*/
 .breadcrumb-section {
-	background: url(../img/img/pexels-emily-ranquist-1205651.jpg) center 37.3% no-repeat;
+	background: linear-gradient(310deg, #292c2598, #262d3b94), url(../img/img/pexels-emily-ranquist-1205651.jpg) center 37.3% no-repeat;
 	background-size: cover;
 	padding: 31px 0 42px;
 	/*	margin-bottom: 59px;*/
@@ -755,6 +755,7 @@ blockquote footer:before,
 .breadcrumb-section h1 {
 	font-weight: 700;
 	margin-bottom: 0;
+	color: #f8f7f5;
 }
 
 .breadcrumb {

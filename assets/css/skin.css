@@ -49,17 +49,22 @@ h6,
 .header-third .brand,
 .header-third .nav-content:before,
 .news-section3 .volunteer-reward,
-.header-second .form-group,
+
 .faq .collape-plus,
 .choose-pricing .btn-default.active,
-input:focus,
-textarea:focus,
+
 .btn-width:focus,
 .choose-pricing .btn-default:hover,
 .choose-pricing .btn-default.active,
 .helping-child .btn-theme:hover {
 
 	background: #00933b;
+}
+
+input:focus,
+textarea:focus,
+.header-second .form-group {
+	background-color: #f7f7f7;
 }
 
 .svg-shape path {

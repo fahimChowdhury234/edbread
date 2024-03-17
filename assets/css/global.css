@@ -1070,7 +1070,7 @@ a.brand img {
 
 .navbar-nav>li>.dropdown-menu>ul>li>a {
 	color: #fff;
-	font-weight: 300;
+	font-weight: 400;
 	display: block;
 	padding: 9px 0;
 	transition: All 250ms ease-in;
@@ -1263,7 +1263,7 @@ a.brand img {
 }
 
 .touch-by-mail:hover {
-	color: #ecc731;
+	color: #ddd;
 }
 
 .header-second .primary-header {

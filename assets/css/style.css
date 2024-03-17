@@ -2310,7 +2310,8 @@ aside ul.archives li span {
 }
 
 .faq .panel-group .panel p {
-	font-weight: 300;
+	font-weight: 400;
+	color: #202323;
 }
 
 .save-lives.ask-us {
